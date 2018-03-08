@@ -1,5 +1,6 @@
 package com.example.pruebaanadirgit;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -30,4 +31,12 @@ public class MainActivity extends AppCompatActivity {
 
 
     }
+
+    public void click_grafica ( View view){
+
+        Intent fomr_stats = new Intent(getApplicationContext(),Main3Activity.class);
+        startActivity(fomr_stats);
+    }
+
+
 }
